@@ -26,7 +26,7 @@ namespace Xamarin.Forms.PancakeView.MacOS
         /// <summary>
         /// This method ensures that we don't get stripped out by the linker.
         /// </summary>
-        public static void Init()
+        public new static void Init()
         {
 #pragma warning disable 0219
             var ignore1 = typeof(PancakeViewRenderer);
